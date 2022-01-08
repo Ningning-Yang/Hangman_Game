@@ -1,24 +1,26 @@
-# SheHacks6 HO Hangman
-# team 15
+#This is a program that allows two users to play a basic hangman game
 
-print("Welcome to Hangman!")
+print("Welcome to Hangman game!")
+
+#The program should prompt user 1 at the beginning for the word and number of guesses.
 
 word = input("Player 1 please enter a word: ")
 num = int(input("Player 1 please enter the # of guesses: "))
-
-print("mY fIrSt HacKaTHoN iS GoiNg wEll!!!!!\n"*10)
 
 currentguess = []
 for i in range(len(word)):
     currentguess.append("_")
 wordList = list(word)
 
+#The program should prompt user 2 to enter a letter
+
 while num != 0 and "_" in currentguess:
     strGuess = "".join(currentguess)
     print("WORD: " + strGuess + "\n" + "GUESSES LEFT: " + str(num))
+    num = num - 1
     guess = input("Player 2 please enter a letter: ")
 
-    if len(guess) != 1:
+    if len(guess) != 1 or guess in currentguess:
         print("Invalid Input")
 
     good_guess = False
