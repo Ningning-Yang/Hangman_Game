@@ -1,5 +1,4 @@
 # SheHacks6 HO Hangman
-# Piper Yang
 # team 15
 
 print("Welcome to Hangman!")
