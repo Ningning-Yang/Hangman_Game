@@ -1,5 +1,4 @@
-# SheHacks6_HO_team15
-A repo for the HO challenge for SheHacks6
+# SheHacks6_Chanllenges
 
-The .html is for the GIT challenge
-The .py is for the Python challenge
+A python program that allows two users to play a basic hangman game
+
