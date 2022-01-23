@@ -1,6 +1,6 @@
 # Hangman_Game
 
-A python program that allows two users to play a basic hangman game. (SheHacks6_HO_Chanllenges)
+A python program that allows two users to play a basic hangman game. (SheHacks6 HO Chanllenges)
 
 - The program prompt the user 1 at the beginning for the word and number of guesses.
 - The program then display the letter slots and number of guesses left
